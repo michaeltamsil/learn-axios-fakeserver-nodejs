@@ -11,6 +11,7 @@ axios.get('http://localhost:3001/contacts')
             Name : ${name}
             <br>
             Age : ${age} Year
+                <a href="./detail.html?id=${id}">detail</a>
                 <button onclick="ubah(${id})">edit</button>
                 <button onclick="hapus(${id})">hapus</button>
             </li>`;
